@@ -1,0 +1,15 @@
+{
+    "name": "Ajfarzz",
+    "short_name": "Ajfarzz",
+    "icons": [
+        {
+            "src": "/android-chrome-144x144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        }
+    ],
+    "start-url": "../index.html"
+    "theme_color": "#8a93f9",
+    "background_color": "#8a93f9",
+    "display": "standalone"
+}
