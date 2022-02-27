@@ -32,7 +32,7 @@ a:focus{background:none;}
 /*Media queries*/
 
 @media (min-width:1000px){
-  ul{height:50px;width:965px;}
+  ul{height:50px;width:100%;}
   img{float:right;}
   .about{padding-right:4px;text-align:left;}
 }
