@@ -36,6 +36,12 @@ a:focus{background:none;}
   img{float:right;}
   .about{padding-right:4px;text-align:left;}
 }
+
+@media (min-width:412px){
+  ul{width:355px;}
+  img{width:395px;}
+}
+
 /*Logos*//*
 
 #facebook{position:absolute;bottom:;left:41px;}
