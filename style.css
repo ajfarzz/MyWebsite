@@ -42,6 +42,13 @@ a:focus{background:none;}
   img{width:395px;}
 }
 
+
+/*iphone 5*/
+@media (min-width:320px) and (max-width:360px){
+  ul li a{margin-left:-30px;padding:21px;}
+  ul li{border-right:none}
+  ul{width:265px;}
+}
 /*Logos*//*
 
 #facebook{position:absolute;bottom:;left:41px;}
