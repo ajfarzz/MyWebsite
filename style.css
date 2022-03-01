@@ -37,7 +37,7 @@ a:focus{background:none;}
   .about{padding-right:4px;text-align:left;}
 }
 
-@media (min-width:412px) and (max-width:480px){
+@media (min-width:412px) and (max-width:430px){
   ul{width:355px;}
   img{width:395px;}
 }
