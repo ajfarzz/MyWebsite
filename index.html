@@ -22,6 +22,7 @@
      crossorigin="anonymous"></script>
 </head>
 <body>
+   <div class="preloader"></div>
     <ul>
         <li><a class="home" href="">Home</a></li>
         <li><a href="#coding">Coding</a></li>
@@ -85,6 +86,15 @@
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('sw.js');
         };
+    </script>
+        <!--script for the preloader-->
+    <script type="text/javascript" charset="utf-8">
+      var preload = document.querySelector(".preloader");
+      var body = document.querySelector("body");
+      window.addEventListener("load", function(){
+        preload.style.display="none";
+        body.style.margin="8px";
+      })
     </script>
 </body>
 </html>
