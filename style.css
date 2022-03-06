@@ -4,8 +4,8 @@
   color:white;
 }
 /*costume scrollbar*/
-::-webkit-scrollbar-thumb {background: #8d42c7}
-::-webkit-scrollbar-thumb:hover {background: #572a7a}
+::-webkit-scrollbar-thumb {background: #8d42c7;}
+::-webkit-scrollbar-thumb:hover {background: #572a7a;}
 
 
 html{scroll-behavior:smooth;}
