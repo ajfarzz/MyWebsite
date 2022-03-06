@@ -3,6 +3,10 @@
   background: #8b2a97;
   color:white;
 }
+/*costume scrollbar*/
+::-webkit-scrollbar-thumb {background: #8d42c7}
+::-webkit-scrollbar-thumb:hover {background: #572a7a}
+
 
 html{scroll-behavior:smooth;}
 body{font-family:verdana,sans-serif;margin:0;cursor:url(cursor.jpg),auto;}
