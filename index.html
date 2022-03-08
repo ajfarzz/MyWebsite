@@ -24,7 +24,7 @@
 <body>
    <div class="preloader"></div>
     <ul>
-        <li><a class="home" href="">Home</a></li>
+        <li><a class="home" href="#" onclick="fullscreen()">Home</a></li>
         <li><a href="#coding">Coding</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#footer">More</a></li>
@@ -86,7 +86,25 @@
          // navigator.serviceWorker.register('sw.js');
      
     </script>
-        <!--script for the preloader-->
+      
+<script>
+/* Get the element you want displayed in fullscreen mode (a video in this example): */
+var elem = document.querySelector("body");
+
+/* When the openFullscreen() function is executed, open the video in fullscreen.
+Note that we must include prefixes for different browsers, as they don't support the requestFullscreen method yet */
+function fullscreen() {
+  if (elem.requestFullscreen) {
+    elem.requestFullscreen();
+  } else if (elem.webkitRequestFullscreen) { /* Safari */
+    elem.webkitRequestFullscreen();
+  } else if (elem.msRequestFullscreen) { /* IE11 */
+    elem.msRequestFullscreen();
+  }
+}
+</script>
+
+  <!--script for the preloader-->
     <script type="text/javascript" charset="utf-8">
       var preload = document.querySelector(".preloader");
       var body = document.querySelector("body");
