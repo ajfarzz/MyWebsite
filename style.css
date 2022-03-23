@@ -1,6 +1,13 @@
 /*Highlight bg-color*/
+/*
 ::selection {
-  background: #none;
+  background:#83228c;
+  color:white;
+}
+*/
+
+::selection {
+  background:none;
   color:none;
 }
 /*costume scrollbar*/
