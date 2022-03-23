@@ -1,7 +1,7 @@
 /*Highlight bg-color*/
 ::selection {
-  background: #8b2a97;
-  color:white;
+  background: #none;
+  color:none;
 }
 /*costume scrollbar*/
 ::scrollbar-thumb {
